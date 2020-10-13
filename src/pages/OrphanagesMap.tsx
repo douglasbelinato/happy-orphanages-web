@@ -6,6 +6,7 @@ import {Map} from 'react-leaflet';
 import mapMarkerImg from '../images/map-marker.svg'
 
 import '../styles/pages/orphanages-map.css'
+import { TileLayer } from 'leaflet';
 
 function OrphanegesMap() {
     return (
@@ -24,13 +25,14 @@ function OrphanegesMap() {
                 </footer>
             </aside>
 
-            <Map
+            {/* <Map
                 center={[-23.6452227,-46.5442955]}
                 zoom={15}
                 style={{ width: 100%, height: 100% }}
             >
+                <TileLayer
 
-            </Map>
+            </Map> */}
 
             <Link to="" className="create-orphanage">
                 <FiPlus size={32} color="#FFF"/>
