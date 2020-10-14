@@ -47,10 +47,18 @@
     font-weight: 800;
 }
 
+#page-map .leaflet-container {
+    /* Map stays behind button*/
+    z-index: 5;
+}
+
 #page-map .create-orphanage {
     position: absolute;
     right: 40px;
     bottom: 40px;
+
+    /* Button stays in front of map*/
+    z-index: 10;
 
     width: 64px;
     height: 64px;
