@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { FaWhatsapp } from "react-icons/fa";
 import { FiClock, FiInfo } from "react-icons/fi";
-import {Map, TileLayer, Marker, Popup} from 'react-leaflet';
+import {Map, TileLayer, Marker } from 'react-leaflet';
 import Sidebar from "../components/Sidebar";
 import mapIcon from "../utils/mapIcon";
 import '../styles/pages/orphanage.css';
